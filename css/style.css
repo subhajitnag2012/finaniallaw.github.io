@@ -1,0 +1,161 @@
+
+/* Global */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none !important;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+section{
+    padding: 100px 0px;
+}
+/* End Global */
+/* Typography */
+h1{
+font-size: 55px !important;
+line-height: 87px;
+color: #da7676;
+font-weight: lighter;
+}
+h2{
+font-size: 38px !important;
+margin-bottom: 10px;
+color: #02609d;
+font-weight: 700;
+}
+h3{
+font-size: 24px !important;
+line-height: 64px;
+margin-bottom: 10px;
+color: #ffffff;
+font-weight: 700;
+}
+
+p{
+font-size: 15px;
+line-height: 22px;
+margin-bottom: 10px;
+color: #000000;
+}
+
+/* End Typography */
+
+/*Header*/
+header{
+    padding: 0px 100px;
+    background-color: #000000;
+}
+.navbar{
+    padding: 0px;
+}
+.navbar-nav .nav-link{
+    padding: 15px 30px !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+ 
+}
+.navbar-toggler-icon{
+    height: auto;
+    color: #ffffff !important;
+   
+}
+.nav-link{ 
+    font-weight: 500;
+    transition: 0.4s;
+    color: #ffffff !important;
+}
+.nav-link:hover{
+    font-weight: 500;
+    transition: 0.4s;
+    color: #009970 !important;
+}
+@media (max-width:767px){
+    header{
+        padding: 0px 10px !important;
+    }
+}
+/*Header End*/
+
+/* Banner*/
+.carousel-caption{
+    bottom: 350px !important;
+    text-align: left !important;
+    
+}
+.btn-green_hvr:hover{
+    border-color:#1BAC91;
+    background-color: #1BAC91;
+    transition: .6s;
+    overflow: hidden;
+}
+/* End Banner */
+
+/* quote*/
+.clients {
+    background: #02609d;
+    padding: 10px 0; 
+    text-align: center;
+}
+  
+.clients .col-lg-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Quote{
+    background-color: #ffffff !important;
+    color: #02609d !important;
+}
+
+/*End quote*/
+
+/* About */
+.learn{
+    background-color: #ffffff !important;
+    color: #02609d !important;
+    border: 1px solid #02609d !important;
+}
+.test{
+    text-align: left;
+} 
+  
+/* About End*/
+/*
+.uni-padding{
+    padding: 0 7%;
+}
+
+#topbar{
+    background-color: #ffffff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#welcome{
+    float: left;
+    color: #89b5d1;
+    margin: 0;
+}
+#social-icon{
+    float: right;
+    color: #02609d;
+    padding: 7px;
+}
+.fa-facebook{
+    color: #02609d;
+    padding: 6px;
+}
+.fa-twitter{
+    color: #00acee;
+    padding: 6px;
+}
+.fa-instagram{
+    color: #73228a;
+    padding: 6px;
+}
+
+*/
